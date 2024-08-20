@@ -1,0 +1,5 @@
+@function rem($pixels, $context: 16){
+    @return (math.div($pixels, $context)) * 1rem;
+}
+// 16 px = 1rem
+
