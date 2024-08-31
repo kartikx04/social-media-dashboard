@@ -1,14 +1,16 @@
 html {
     font-size: 100%;
-    box-sizing: border-box;
+    box-sizing: border-box; // when you add padding or border it adds inside of the width and height.
 }
 
 *, *::before, *::after {
-    box-sizing: inherit;
+    box-sizing: inherit; // inherit box-sizing property from parent.
 }
 
 body {
     margin: 0;
     padding: 0;
     font-family: var(--font-inter);
+    background: var(--dark-bg);
+    color: var(--dark-text2);
 }
